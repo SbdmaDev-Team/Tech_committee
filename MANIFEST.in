@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tech_committee *.css
+recursive-include tech_committee *.csv
+recursive-include tech_committee *.html
+recursive-include tech_committee *.ico
+recursive-include tech_committee *.js
+recursive-include tech_committee *.json
+recursive-include tech_committee *.md
+recursive-include tech_committee *.png
+recursive-include tech_committee *.py
+recursive-include tech_committee *.svg
+recursive-include tech_committee *.txt
+recursive-exclude tech_committee *.pyc
