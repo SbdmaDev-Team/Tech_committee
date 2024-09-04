@@ -16,7 +16,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Master Data",
-   "link_count": 3,
+   "link_count": 6,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -53,8 +53,38 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Subject Committee",
+   "link_count": 0,
+   "link_to": "Subject Committee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance Committee",
+   "link_count": 0,
+   "link_to": "Attendance Committee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Agenda Decision",
+   "link_count": 0,
+   "link_to": "Agenda Decision",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Transaction",
-   "link_count": 1,
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -67,9 +97,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "TC Meeting",
+   "link_count": 0,
+   "link_to": "TC Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-09-03 20:32:23.382382",
+ "modified": "2024-09-04 19:07:23.878282",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Technical committee",
