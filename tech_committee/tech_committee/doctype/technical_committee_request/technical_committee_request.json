@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-03 20:25:03.413241",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "request_title",
+  "request_date",
+  "department",
+  "amended_from",
+  "section_break_zfrhy",
+  "action_template",
+  "requirement_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "request_title",
+   "fieldtype": "Data",
+   "label": "Request Title"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Data",
+   "label": "Request Date"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Technical Committee Request",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_zfrhy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "requirement_table",
+   "fieldtype": "Table",
+   "label": "Requirement Table",
+   "options": "Requirement Table"
+  },
+  {
+   "fieldname": "action_template",
+   "fieldtype": "Link",
+   "label": "Action Template",
+   "options": "Action Template"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-03 20:33:35.403910",
+ "modified_by": "Administrator",
+ "module": "Tech Committee",
+ "name": "Technical Committee Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
