@@ -9,9 +9,9 @@ from tech_committee import __version__ as version
 setup(
 	name="tech_committee",
 	version=version,
-	description="Technical Committee",
-	author="Mohamed Abdulsalam",
-	author_email="moha2016it@gmail.com",
+	description="Tech_committee",
+	author="Yalhaj",
+	author_email="yalhag@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

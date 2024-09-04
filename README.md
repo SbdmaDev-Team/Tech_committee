@@ -1,6 +1,6 @@
 ## Tech Committee
 
-Technical Committee
+Tech_committee
 
 #### License
 
