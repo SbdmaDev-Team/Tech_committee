@@ -7,18 +7,38 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "title"
+  "title",
+  "meeting_description",
+  "date",
+  "meeting_status"
  ],
  "fields": [
   {
    "fieldname": "title",
    "fieldtype": "Data",
    "label": "Title"
+  },
+  {
+   "fieldname": "meeting_description",
+   "fieldtype": "Data",
+   "label": "Meeting Description"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Meeting Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "meeting_status",
+   "fieldtype": "Check",
+   "label": "Meeting Status",
+   "options": "0\n1\n2"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 17:38:19.036515",
+ "modified": "2024-09-08 18:34:47.987154",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "TC Meeting",
