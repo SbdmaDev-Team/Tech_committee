@@ -16,28 +16,32 @@
   {
    "fieldname": "subject_desc",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Subject Description"
   },
   {
    "fieldname": "subject_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Subject Date"
   },
   {
    "fieldname": "subject_proirty",
    "fieldtype": "Percent",
+   "in_list_view": 1,
    "label": "Subject Priority"
   },
   {
    "fieldname": "wight",
    "fieldtype": "Percent",
+   "in_list_view": 1,
    "label": "Wight"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-09-06 02:32:40.659877",
+ "modified": "2024-09-08 18:54:18.460729",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Subjects Committee",

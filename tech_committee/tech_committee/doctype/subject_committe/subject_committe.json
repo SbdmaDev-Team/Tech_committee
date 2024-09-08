@@ -9,15 +9,15 @@
  "engine": "InnoDB",
  "field_order": [
   "subject_name",
+  "subject_type",
   "subjects_committee",
   "agenda_decision"
  ],
  "fields": [
   {
    "fieldname": "subject_name",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "label": "Subject Name",
-   "options": "Subject Type",
    "unique": 1
   },
   {
@@ -31,11 +31,18 @@
    "fieldtype": "Table",
    "label": "Agenda Decision",
    "options": "Agenda Decision"
+  },
+  {
+   "fieldname": "subject_type",
+   "fieldtype": "Link",
+   "label": "Subject Type",
+   "options": "Subject Type",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-06 02:58:53.975183",
+ "modified": "2024-09-08 18:48:25.910464",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Subject Committe",
