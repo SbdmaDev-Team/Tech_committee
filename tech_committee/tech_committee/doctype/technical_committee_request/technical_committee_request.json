@@ -13,7 +13,11 @@
   "amended_from",
   "section_break_zfrhy",
   "action_template",
-  "requirement_table"
+  "requirement_table",
+  "section_break_chdtd",
+  "subject_committe",
+  "subjects_committee",
+  "agenda_decision"
  ],
  "fields": [
   {
@@ -28,8 +32,9 @@
   },
   {
    "fieldname": "department",
-   "fieldtype": "Data",
-   "label": "Department"
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
   },
   {
    "fieldname": "amended_from",
@@ -45,22 +50,44 @@
    "fieldtype": "Section Break"
   },
   {
+   "fieldname": "action_template",
+   "fieldtype": "Link",
+   "label": "Action Template",
+   "options": "Action Template"
+  },
+  {
    "fieldname": "requirement_table",
    "fieldtype": "Table",
    "label": "Requirement Table",
    "options": "Requirement Table"
   },
   {
-   "fieldname": "action_template",
+   "fieldname": "section_break_chdtd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subjects_committee",
+   "fieldtype": "Table",
+   "label": "Subjects Committee",
+   "options": "Subjects Committee"
+  },
+  {
+   "fieldname": "agenda_decision",
+   "fieldtype": "Table",
+   "label": "Agenda Decision",
+   "options": "Agenda Decision"
+  },
+  {
+   "fieldname": "subject_committe",
    "fieldtype": "Link",
-   "label": "Action Template",
-   "options": "Action Template"
+   "label": "Subject Committe",
+   "options": "Subject Committe"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-09-03 20:33:35.403910",
+ "modified": "2024-09-05 06:48:47.189867",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Technical Committee Request",
