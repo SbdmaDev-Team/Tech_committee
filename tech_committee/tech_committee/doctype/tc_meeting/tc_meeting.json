@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2024-09-04 17:38:19.036515",
  "default_view": "List",
  "doctype": "DocType",
@@ -10,13 +11,16 @@
   "title",
   "meeting_description",
   "date",
-  "meeting_status"
+  "meeting_status",
+  "subject",
+  "order_subject"
  ],
  "fields": [
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Title",
+   "unique": 1
   },
   {
    "fieldname": "meeting_description",
@@ -29,19 +33,31 @@
    "label": "Meeting Date"
   },
   {
-   "default": "0",
    "fieldname": "meeting_status",
-   "fieldtype": "Check",
+   "fieldtype": "Select",
    "label": "Meeting Status",
-   "options": "0\n1\n2"
+   "options": "A\nB\nC"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Link",
+   "label": "Subject",
+   "options": "Technical Committee Request"
+  },
+  {
+   "fieldname": "order_subject",
+   "fieldtype": "Select",
+   "label": "order subject",
+   "options": "High\nLow\nReject"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-08 18:34:47.987154",
+ "modified": "2024-09-09 17:09:38.025907",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "TC Meeting",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
