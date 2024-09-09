@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-09 18:14:56.684343",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "meeting_name",
+  "commite_memmber__dept_id",
+  "commite_memmber_type",
+  "commite_memmber__status",
+  "commite_memmber",
+  "commite_memmber_create_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "meeting_name",
+   "fieldtype": "Data",
+   "label": "Meeting Name"
+  },
+  {
+   "fieldname": "commite_memmber__dept_id",
+   "fieldtype": "Data",
+   "label": "Commite Memmber  dept id"
+  },
+  {
+   "fieldname": "commite_memmber_type",
+   "fieldtype": "Data",
+   "label": "Commite Memmber Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "commite_memmber__status",
+   "fieldtype": "Check",
+   "label": "Commite Memmber  Status"
+  },
+  {
+   "fieldname": "commite_memmber",
+   "fieldtype": "Image",
+   "label": "Commite Memmber "
+  },
+  {
+   "fieldname": "commite_memmber_create_date",
+   "fieldtype": "Date",
+   "label": "Commite Memmber Create Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-09 18:14:56.684343",
+ "modified_by": "Administrator",
+ "module": "Tech Committee",
+ "name": "Meeting Committe Member",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

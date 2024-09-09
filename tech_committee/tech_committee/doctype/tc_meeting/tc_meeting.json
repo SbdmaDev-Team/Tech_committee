@@ -12,8 +12,7 @@
   "meeting_description",
   "date",
   "meeting_status",
-  "subject",
-  "order_subject"
+  "subjects_committee"
  ],
  "fields": [
   {
@@ -24,7 +23,7 @@
   },
   {
    "fieldname": "meeting_description",
-   "fieldtype": "Data",
+   "fieldtype": "Text Editor",
    "label": "Meeting Description"
   },
   {
@@ -39,21 +38,15 @@
    "options": "A\nB\nC"
   },
   {
-   "fieldname": "subject",
-   "fieldtype": "Link",
-   "label": "Subject",
-   "options": "Technical Committee Request"
-  },
-  {
-   "fieldname": "order_subject",
-   "fieldtype": "Select",
-   "label": "order subject",
-   "options": "High\nLow\nReject"
+   "fieldname": "subjects_committee",
+   "fieldtype": "Table",
+   "label": "Subjects Committee",
+   "options": "Subjects Committee"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-09 17:09:38.025907",
+ "modified": "2024-09-09 17:50:15.726016",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "TC Meeting",
