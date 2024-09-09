@@ -7,49 +7,30 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "meeting_name",
   "commite_memmber__dept_id",
   "commite_memmber_type",
-  "commite_memmber__status",
-  "commite_memmber",
   "commite_memmber_create_date"
  ],
  "fields": [
   {
-   "fieldname": "meeting_name",
-   "fieldtype": "Data",
-   "label": "Meeting Name"
-  },
-  {
    "fieldname": "commite_memmber__dept_id",
    "fieldtype": "Data",
-   "label": "Commite Memmber  dept id"
+   "label": "Memmber Name"
   },
   {
    "fieldname": "commite_memmber_type",
    "fieldtype": "Data",
-   "label": "Commite Memmber Type"
-  },
-  {
-   "default": "0",
-   "fieldname": "commite_memmber__status",
-   "fieldtype": "Check",
-   "label": "Commite Memmber  Status"
-  },
-  {
-   "fieldname": "commite_memmber",
-   "fieldtype": "Image",
-   "label": "Commite Memmber "
+   "label": "Desigition"
   },
   {
    "fieldname": "commite_memmber_create_date",
    "fieldtype": "Date",
-   "label": "Commite Memmber Create Date"
+   "label": "Joining Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-09 18:14:56.684343",
+ "modified": "2024-09-09 20:00:48.353274",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Meeting Committe Member",

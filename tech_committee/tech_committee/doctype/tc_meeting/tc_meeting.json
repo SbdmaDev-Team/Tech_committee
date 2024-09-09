@@ -9,10 +9,18 @@
  "engine": "InnoDB",
  "field_order": [
   "title",
-  "meeting_description",
   "date",
+  "column_break_e2smp",
   "meeting_status",
-  "subjects_committee"
+  "section_break_6yph2",
+  "subjects_ordering",
+  "subjects_committee",
+  "section_break_otqjx",
+  "tech_committee_member",
+  "column_break_mygid",
+  "attendance",
+  "section_break_zdssb",
+  "meeting_description"
  ],
  "fields": [
   {
@@ -27,6 +35,7 @@
    "label": "Meeting Description"
   },
   {
+   "default": "Today",
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Meeting Date"
@@ -42,11 +51,48 @@
    "fieldtype": "Table",
    "label": "Subjects Committee",
    "options": "Subjects Committee"
+  },
+  {
+   "fieldname": "attendance",
+   "fieldtype": "Table",
+   "label": "Attendance",
+   "options": "Attendance Committee"
+  },
+  {
+   "fieldname": "column_break_e2smp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6yph2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subjects_ordering",
+   "fieldtype": "Button",
+   "label": "Subjects Ordering "
+  },
+  {
+   "fieldname": "section_break_otqjx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_mygid",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zdssb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tech_committee_member",
+   "fieldtype": "Table",
+   "label": "Tech Committee Member ",
+   "options": "TC Member"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-09 17:50:15.726016",
+ "modified": "2024-09-09 20:10:19.021042",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "TC Meeting",

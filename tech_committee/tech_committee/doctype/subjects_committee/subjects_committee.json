@@ -16,27 +16,28 @@
  ],
  "fields": [
   {
+   "fetch_from": "subject.description",
    "fieldname": "subject_desc",
    "fieldtype": "Data",
-   "in_list_view": 1,
    "label": "Subject Description"
   },
   {
+   "fetch_from": "subject.requst_data",
    "fieldname": "subject_date",
    "fieldtype": "Date",
    "in_list_view": 1,
    "label": "Subject Date"
   },
   {
+   "fetch_from": "subject.proity",
    "fieldname": "subject_proirty",
-   "fieldtype": "Percent",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Subject Priority"
   },
   {
    "fieldname": "wight",
    "fieldtype": "Percent",
-   "in_list_view": 1,
    "label": "Wight"
   },
   {
@@ -44,24 +45,27 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Subject ",
-   "options": "Subject Committe"
+   "options": "Subject Committe Request"
   },
   {
+   "fetch_from": "subject.status",
    "fieldname": "stutas",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "stutas",
-   "options": "0\n1\n2"
+   "options": "Open\nPending\nClosed"
   },
   {
    "fieldname": "order_subjects",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "order subjects"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-09-09 17:51:27.092206",
+ "modified": "2024-09-09 19:53:37.568022",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Subjects Committee",
