@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2024-09-04 17:38:19.036515",
  "default_view": "List",
  "doctype": "DocType",
@@ -8,40 +9,94 @@
  "engine": "InnoDB",
  "field_order": [
   "title",
-  "meeting_description",
   "date",
-  "meeting_status"
+  "column_break_e2smp",
+  "meeting_status",
+  "section_break_6yph2",
+  "subjects_ordering",
+  "subjects_committee",
+  "section_break_otqjx",
+  "tech_committee_member",
+  "column_break_mygid",
+  "attendance",
+  "section_break_zdssb",
+  "meeting_description"
  ],
  "fields": [
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Title",
+   "unique": 1
   },
   {
    "fieldname": "meeting_description",
-   "fieldtype": "Data",
+   "fieldtype": "Text Editor",
    "label": "Meeting Description"
   },
   {
+   "default": "Today",
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Meeting Date"
   },
   {
-   "default": "0",
    "fieldname": "meeting_status",
-   "fieldtype": "Check",
+   "fieldtype": "Select",
    "label": "Meeting Status",
-   "options": "0\n1\n2"
+   "options": "A\nB\nC"
+  },
+  {
+   "fieldname": "subjects_committee",
+   "fieldtype": "Table",
+   "label": "Subjects Committee",
+   "options": "Subjects Committee"
+  },
+  {
+   "fieldname": "attendance",
+   "fieldtype": "Table",
+   "label": "Attendance",
+   "options": "Attendance Committee"
+  },
+  {
+   "fieldname": "column_break_e2smp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6yph2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subjects_ordering",
+   "fieldtype": "Button",
+   "label": "Subjects Ordering "
+  },
+  {
+   "fieldname": "section_break_otqjx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_mygid",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zdssb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tech_committee_member",
+   "fieldtype": "Table",
+   "label": "Tech Committee Member ",
+   "options": "TC Member"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-08 18:34:47.987154",
+ "modified": "2024-09-09 20:10:19.021042",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "TC Meeting",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

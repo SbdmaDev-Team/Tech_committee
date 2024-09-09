@@ -81,13 +81,13 @@
    "fieldname": "subject_committe",
    "fieldtype": "Link",
    "label": "Subject Committe",
-   "options": "Subject Committe"
+   "options": "Subject Committe Request"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-09-05 06:48:47.189867",
+ "modified": "2024-09-09 19:25:02.174721",
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Technical Committee Request",

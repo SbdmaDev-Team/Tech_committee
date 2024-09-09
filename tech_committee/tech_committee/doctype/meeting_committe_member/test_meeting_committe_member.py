@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestSubjectCommitte(FrappeTestCase):
+class TestMeetingCommitteMember(FrappeTestCase):
 	pass
