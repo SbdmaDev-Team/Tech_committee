@@ -10,9 +10,14 @@ frappe.ui.form.on('TC Meeting', {
 				}
 			}
 		})
-    }
-	//subjects_committee:
-	// refresh: function(frm) {
-
-	// }
+    },	
+	refresh: function(frm) {
+		frm.set_query('subject', 'subjects_committee', () => {
+			return {
+				filters: {
+					workflow_state: 'Approved'
+				}
+			}
+		})
+	}
 });
