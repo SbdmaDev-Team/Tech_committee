@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_rename": 1,
  "creation": "2024-09-03 18:31:40.038952",
  "default_view": "List",
  "doctype": "DocType",
@@ -65,7 +66,11 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
+<<<<<<< HEAD
+ "modified": "2024-09-08 19:48:25.914133",
+=======
  "modified": "2024-09-09 19:53:37.568022",
+>>>>>>> faf52287e9fcf3b788d544de5237add40bc11582
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Subjects Committee",
