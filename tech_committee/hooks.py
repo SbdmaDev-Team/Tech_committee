@@ -199,3 +199,11 @@ app_license = "MIT"
 # auth_hooks = [
 #	"tech_committee.auth.validate"
 # ]
+fixtures = [
+    {
+        "dt": "Workflow",
+        "filters":{
+            "name",["in",["سير العمل الخاص بقبول المتدرب"]]
+        }
+    }
+]
