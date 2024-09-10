@@ -18,6 +18,7 @@
    "label": "Member Name ",
    "options": "Meeting Committe Member"
   },
+ 
   {
    "fieldname": "desigition",
    "fieldtype": "Data",

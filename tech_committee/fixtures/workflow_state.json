@@ -1,0 +1,29 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-10 18:16:22.491995",
+  "name": "Send To TC",
+  "style": "",
+  "workflow_state_name": "Send To TC"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-10 18:17:38.472670",
+  "name": "Sent to TC",
+  "style": "",
+  "workflow_state_name": "Sent to TC"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-10 18:18:08.207190",
+  "name": "Reviewed",
+  "style": "",
+  "workflow_state_name": "Reviewed"
+ }
+]
