@@ -199,11 +199,12 @@ app_license = "MIT"
 # auth_hooks = [
 #	"tech_committee.auth.validate"
 # ]
+#Eng.Mohamed Abdulsalam, [9/10/2024 5:42 PM]
 fixtures = [
     {
         "dt": "Workflow",
         "filters":{
-            "name",["in",["سير العمل الخاص بقبول المتدرب"]]
+            "name":"سير عمل مواضيع الطلب للجنة"
         }
     }
 ]

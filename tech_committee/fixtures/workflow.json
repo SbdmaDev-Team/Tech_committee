@@ -1,0 +1,127 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow",
+  "document_type": "Subject Committe Request",
+  "is_active": 1,
+  "modified": "2024-09-09 20:44:00.454284",
+  "name": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+  "override_status": 0,
+  "send_email_alert": 1,
+  "states": [
+   {
+    "allow_edit": "Employee",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Pending",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Employee",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Sent to TC",
+    "update_field": "status",
+    "update_value": "Pending"
+   },
+   {
+    "allow_edit": "Employee",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Reviewed",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Employee",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Employee",
+    "doc_status": "2",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Rejected",
+    "update_field": null,
+    "update_value": null
+   }
+  ],
+  "transitions": [
+   {
+    "action": "Send to TC",
+    "allow_self_approval": 1,
+    "allowed": "Employee",
+    "condition": null,
+    "next_state": "Sent to TC",
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending"
+   },
+   {
+    "action": "Review",
+    "allow_self_approval": 1,
+    "allowed": "Employee",
+    "condition": null,
+    "next_state": "Reviewed",
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Sent to TC"
+   },
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "Employee",
+    "condition": null,
+    "next_state": "Approved",
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Reviewed"
+   },
+   {
+    "action": "Reject",
+    "allow_self_approval": 1,
+    "allowed": "Employee",
+    "condition": null,
+    "next_state": "Rejected",
+    "parent": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Reviewed"
+   }
+  ],
+  "workflow_name": "\u0633\u064a\u0631 \u0639\u0645\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0627\u0644\u0637\u0644\u0628 \u0644\u0644\u062c\u0646\u0629",
+  "workflow_state_field": "workflow_state"
+ }
+]

@@ -13,6 +13,30 @@
  "fields": [
   {
    "fieldname": "member_id",
+<<<<<<< HEAD
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Member_id"
+  },
+  {
+   "fieldname": "attendance_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Attendance_id"
+  },
+  {
+   "fieldname": "attendance_metteing_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Attendance_Metteing_id"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_attendance",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "is_attendance"
+=======
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Member Name ",
@@ -23,12 +47,17 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Desigition"
+>>>>>>> faf52287e9fcf3b788d544de5237add40bc11582
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
+<<<<<<< HEAD
+ "modified": "2024-09-08 19:03:59.774990",
+=======
  "modified": "2024-09-09 20:03:23.554083",
+>>>>>>> faf52287e9fcf3b788d544de5237add40bc11582
  "modified_by": "Administrator",
  "module": "Tech Committee",
  "name": "Attendance Committee",
