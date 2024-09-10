@@ -13,28 +13,10 @@
  "fields": [
   {
    "fieldname": "member_id",
-   "fieldtype": "Int",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Member_id"
-  },
-  {
-   "fieldname": "attendance_id",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Attendance_id"
-  },
-  {
-   "fieldname": "attendance_metteing_id",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Attendance_Metteing_id"
-  },
-  {
-   "default": "0",
-   "fieldname": "is_attendance",
-   "fieldtype": "Check",
-   "in_list_view": 1,
-   "label": "is_attendance"
+   "label": "Member Name ",
+   "options": "Meeting Committe Member"
   },
  
   {
