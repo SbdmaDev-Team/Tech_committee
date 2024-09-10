@@ -206,5 +206,17 @@ fixtures = [
         "filters":{
             "name":"سير عمل مواضيع الطلب للجنة"
         }
+
+    },
+      {
+        "dt": "Workflow State",
+        "filters":[
+            [
+            "name","in",("Send To TC","Sent To TC","Reviewed")
+            ]
+        ]        
+
     }
+
 ]
+

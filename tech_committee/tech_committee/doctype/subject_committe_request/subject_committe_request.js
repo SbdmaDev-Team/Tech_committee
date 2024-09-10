@@ -1,8 +1,8 @@
-// Copyright (c) 2024, y and contributors
-// For license information, please see license.txt
-
-frappe.ui.form.on('Subject Committe Request', {
-	// refresh: function(frm) {
-
-	// }
+frappe.ui.form.on('Subject Committee Request', {
+    party_type: function(frm) {
+        // Clear the Party field when Party Type is changed
+        frm.set_value('party', null);
+        // Trigger a refresh to make sure the field is updated
+        frm.refresh_field('party');
+    }
 });
